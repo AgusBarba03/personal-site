@@ -25,16 +25,16 @@ const Home = () => {
             </section>            
             <section className="contact">
                 <a href="https://github.com/AgusBarba03" target="_blanck" className="contact-link">
-                    <img src={GitHub} className="contact-img"/>
+                    <img src={GitHub} alt="..." className="contact-img"/>
                 </a>
                 <a href="https://www.instagram.com/agus_barbalase/" target="_blanck" className="contact-link">
-                    <img src={Instagram} className="contact-img"/>
+                    <img src={Instagram} alt="..." className="contact-img"/>
                 </a>
                 <a href="https://www.linkedin.com/in/agust%C3%ADn-barbalase-884a6b1b9/" target="_blanck" className="contact-link">
-                    <img src={Linkedin} className="contact-img"/>
+                    <img src={Linkedin} alt="..." className="contact-img"/>
                 </a>
                 <a href="https://twitter.com/agus_barbalase" target="_blanck" className="contact-link">
-                    <img src={Twitter} className="contact-img"/>
+                    <img src={Twitter} alt="..." className="contact-img"/>
                 </a>
             </section>
         </main>

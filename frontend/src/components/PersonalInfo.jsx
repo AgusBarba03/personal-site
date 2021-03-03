@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const PersonalInfo = () => {
-  const [birth, setBirth] = useState(new Date(2003, 5, 27));
-  const [date, setDate] = useState(new Date());
-  const [age, setAge] = useState(0);
-
-  useEffect(() => {
-    setAge(Math.abs(new Date(date - birth).getUTCFullYear() - 1970));
-  }, []);
+  const birth = new Date(2003, 5, 27);
+  const date = new Date();
+  const age = Math.abs(new Date(date - birth).getUTCFullYear() - 1970);
 
   return (
     <div className="personal-info">
